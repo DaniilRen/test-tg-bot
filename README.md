@@ -1,22 +1,29 @@
 # tg bot on Aiogram
 
-## Setting environment variables
-go to .env file and set your bot token : BOT_TOKEN=<your_token>
+## Create the project
 
-## Building docker container
+```bash
+mkdir tgbot
+cd tgbot
+python3 -m venv venv
 ```
+## Set your bot token
+
+go to `.env` file and change BOT_TOKEN from '' to your token
+
+## Build and run docker container
+
+Optionally you can change `tgbot` to another name
+
+```bash
 docker build -t tgbot .
-```
-
-## Running docker container
-```
 docker run -ti tgbot
 ```
 
-## Exiting docker container
+## Stop and remove docker container
+
+use `docker ps ` to see container id and then remove it
+
 ```
-docker ps // to see container id
 docker rm -f id
 ```
-
-## P.S: optionally you can change "tgbot" to another name
