@@ -5,8 +5,8 @@
 ```bash
 mkdir tgbot
 cd tgbot
-python3 -m venv venv
 ```
+
 ## Set your bot token
 
 go to `.env` file and change BOT_TOKEN from '' to your token
