@@ -1,5 +1,8 @@
 # tg bot on Aiogram
 
+## Setting environment variables
+go to .env file and set your bot token : BOT_TOKEN=<your_token>
+
 ## Building docker container
 ```
 docker build -t tgbot .
