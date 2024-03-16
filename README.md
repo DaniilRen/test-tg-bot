@@ -36,4 +36,3 @@ docker rm -f id
 2. Send your photo
 3. Choose filter
 4. Choose rate
-Done!
