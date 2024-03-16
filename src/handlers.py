@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-import kb
+import kb as kb
 from classes import *
 from app import bot
 from utils import edit_photo, send_and_delete_photo

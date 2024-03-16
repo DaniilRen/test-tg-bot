@@ -2,7 +2,7 @@
 
 ## Building docker container
 ```
-docker build -t tgbot
+docker build -t tgbot .
 ```
 
 ## Running docker container
