@@ -1,6 +1,6 @@
 # tg bot on Aiogram
 
-This telegram bot can apply one of few filters to a photo. [User guide](#user-guide)
+This telegram bot can apply one of few filters to a photo or resize it. [User guide](#user-guide)
 
 ## Create the project
 
