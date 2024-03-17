@@ -34,5 +34,5 @@ docker rm -f id
 
 1. Use `start/` command to start a dialog
 2. Send your photo
-3. Choose filter
-4. Choose rate
+3. Choose filter or press resize button
+4. Choose filtering rate or new size of the image
